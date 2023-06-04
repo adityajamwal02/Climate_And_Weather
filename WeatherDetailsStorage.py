@@ -2,8 +2,6 @@ import os
 import random
 import requests
 
-API_KEY = "0e1407c5174440ee8cb05ffe0a208062"
-
 def generate_random_coordinates():
     latitude = random.uniform(-90, 90)
     longitude = random.uniform(-180, 180)
